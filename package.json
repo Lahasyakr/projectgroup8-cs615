@@ -1,7 +1,7 @@
 {
   "name": "cs615-project",
   "version": "0.1.0",
-  "homepage": "https://lahasyakr.github.io/cs615-project-group8",
+  "homepage": "https://lahasyakr.github.com/projectgroup8-cs615",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
