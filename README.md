@@ -1,7 +1,7 @@
 # projectgroup8-cs615
 
 ## Purpose
-This website provides data about project and the work done in each project phase. 
+This website provides data about the project and the work done in each project phase. 
 
 ## Contents
 1. Team Members
@@ -10,7 +10,7 @@ This website provides data about project and the work done in each project phase
 ## Build commands
 1. Download the entire code from the repo.
 2. Navigate into the project folder.
-3. Install required modeules using the command below.
+3. Install required modules using the command below.
 ```
 npm i
 ```
