@@ -1,9 +1,16 @@
-.proposal-link {
-    color: orange;
-    margin-top:1rem !important;
-    text-transform:capitalize;
+.downloadButton {
+    background-color: #595959 !important;
     letter-spacing: 2px;
     text-decoration: none;
+    text-transform:capitalize !important;
+    margin-left: 1% !important;
+    margin-bottom: 1% !important;
+  }
+  .smalltext{
+    font-size: small !important;
+  }
+  .downloadlink{
+    color: orange !important;
   }
   
 
