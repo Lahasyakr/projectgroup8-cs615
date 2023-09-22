@@ -53,7 +53,7 @@ function ProjectProposal() {
                 </p>
             </Typography>
 
-            <Typography variant="body1" color="textPrimary" align="left"> <u><b>Users: Customers</b></u> </Typography>
+            <Typography variant="body1" color="textPrimary" align="left"> <b><u>Users</u></b>: Customers - Individuals or groups seeking entertainment through board games. As users of the platform.</Typography>
             <Typography variant="body2" color="textPrimary" align="left">
             <p>
                 <b>Goals:</b> To rent the desired board game and provide feedback/reviews.
