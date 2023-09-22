@@ -9,8 +9,7 @@ function ProjectProposal() {
 
 
     return (
-
-        <Grid>
+        <>
             <Grid
                 container
                 direction="column"
@@ -23,11 +22,10 @@ function ProjectProposal() {
                         <DownloadForOfflineIcon sx={{ color: orange[500] }} fontSize='large'/>
                     </a>
                 </Typography>
+
             </Grid>
 
-            <Grid>
-            {/* <Typography variant="body1" color="textSecondary">Hello!,  Welcome to our CS615 Project page</Typography> */}
-            <Typography variant="body1" color="textPrimary" align="center">Hello!,  Welcome to our CS615 Project Proposal page</Typography>
+            <Grid p={7}> 
             <Typography variant="body1" color="textPrimary" align="left"><u><b>Problem statement:</b></u> </Typography>
             <Typography variant='body2' color="textPrimary" align="left">
                 <p>
@@ -84,9 +82,8 @@ function ProjectProposal() {
             </p>
             </Typography>
 
-        </Grid>
-
-    </Grid>
+            </Grid>
+        </>
     )
 }
 
