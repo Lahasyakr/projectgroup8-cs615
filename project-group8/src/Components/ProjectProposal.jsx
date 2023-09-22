@@ -19,12 +19,12 @@ function ProjectProposal() {
             >
 
                 <Typography variant="h4" gutterBottom className='heading'>Project Proposal - </Typography>
-                <Button variant='contained' size="small" className='downloadButton' endIcon={<DownloadIcon sx={{ color: orange[500] }}/>}>
-                    <a href="documents/CS615-Project_Proposal_Group8.pdf" target="_blank" download className='downloadlink'>
-                        Download 
-                    </a>
-                </Button>
-                
+                <a href="documents/CS615-Project_Proposal_Group8.pdf" target="_blank" download className='downloadlink'>
+                    <Button variant='contained' size="small" className='downloadButton' endIcon={<DownloadIcon sx={{ color: orange[500] }} />}>
+                        Download
+                    </Button>
+                </a>
+
 
             </Grid>
 

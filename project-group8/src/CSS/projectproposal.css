@@ -1,19 +1,18 @@
 .downloadButton {
-    background-color: #595959 !important;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-transform:capitalize !important;
-    margin-left: 1% !important;
-    margin-bottom: 1% !important;
-  }
-  .smalltext{
-    font-size: small !important;
-  }
-  .downloadlink{
-    color: orange !important;
-  }
-  
-
-
-
+  color: orange !important;
+  background-color: #595959 !important;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: capitalize !important;
  
+}
+
+.smalltext {
+  font-size: small !important;
+}
+
+.downloadlink {
+  color: orange !important;
+  margin-left: 1% !important;
+  margin-bottom: 0.5% !important;
+}
