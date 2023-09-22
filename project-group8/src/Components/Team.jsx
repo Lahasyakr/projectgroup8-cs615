@@ -9,8 +9,11 @@ const teamMembers = [
     {
         name: 'Prateeksha Bhojaraj',
         role: 'Group memeber',
-        image: 'https://placekitten.com/150/150',
+        image: "Prateeksha.jpg",
         description: 'Graduate Student, UMASS Boston',
+        email: "mailto:prateekshabhojaraj@gmail.com",
+        git: "https://github.com/PrateekshaBhojaraj77", 
+        linkedin: "https://www.linkedin.com/in/prateekshabhojaraj/"
     },
     {
         name: 'Yeshaswini Vasudevamurthy',
