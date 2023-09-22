@@ -7,21 +7,6 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 // team members data
 const teamMembers = [
     {
-        name: 'Prateeksha Bhojaraj',
-        role: 'Group memeber',
-        image: "Prateeksha.jpg",
-        description: 'Graduate Student, UMASS Boston',
-        email: "mailto:prateekshabhojaraj@gmail.com",
-        git: "https://github.com/PrateekshaBhojaraj77", 
-        linkedin: "https://www.linkedin.com/in/prateekshabhojaraj/"
-    },
-    {
-        name: 'Yeshaswini Vasudevamurthy',
-        role: 'Group memeber',
-        image: 'https://placekitten.com/150/150',
-        description: 'Graduate Student, UMASS Boston',
-    },
-    {
         name: 'Lahasya K Rajanna',
         role: 'Group memeber',
         image: "lahasya.png",
@@ -29,6 +14,23 @@ const teamMembers = [
         email: "mailto:lahasyakr.07@gmail.com",
         git: "https://github.com/Lahasyakr",
         linkedin: "https://www.linkedin.com/in/lahasyarajanna/"
+     
+    },
+    {
+        name: 'Prateeksha Bhojaraj',
+        role: 'Group memeber',
+        image: 'https://placekitten.com/150/150',
+        description: 'Graduate Student, UMASS Boston',
+      
+    },
+    {
+        name: 'Yeshaswini Vasudeva Murthy',
+        role: 'Group memeber',
+        image: 'yeshaswini.jpg',
+        description: 'Graduate Student, UMASS Boston',
+        email: "mailto:yeshaswinivasudev@gmail.com",
+        git: "https://github.com/YeshaswiniVasudev",
+        linkedin: "https://www.linkedin.com/in/yeshaswinivasudevamurthy/"
     },
 ];
 
