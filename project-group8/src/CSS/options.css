@@ -5,3 +5,9 @@
 .carcomponent{
     margin: 2rem;
 }
+a:-webkit-any-link {
+    text-align: center;
+    color: #595959;
+    cursor: pointer;
+    text-decoration: none;
+}
