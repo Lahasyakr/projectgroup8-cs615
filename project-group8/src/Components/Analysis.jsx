@@ -5,6 +5,7 @@ import '../CSS/Analysis.css';
 import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 import DownloadIcon from '@mui/icons-material/Download';
 import { orange } from '@mui/material/colors';
+import ERDia from '../images/ER-dia.png'; 
 
 function Analysis() {
 
@@ -89,7 +90,7 @@ function Analysis() {
                 <Typography variant="body1" color="textPrimary" align="left"> <b><u>Domain Analysis</u></b>:
                     <span className='smalltext'>Customers - Individuals or groups seeking entertainment through board games. As users of the platform.</span></Typography>
                 <Typography variant="body2" color="textPrimary" align="left">
-
+                <img src={ERDia} alt="ER Diagram" height={600} width={800}/>
                 </Typography>
 
             </Grid>
