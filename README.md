@@ -1,4 +1,4 @@
-# <a href="https://lahasyakr.github.io/projectgroup8-cs615/">Cs615 - Project Group - 8</a>
+# <a href="https://lahasyakr.github.io/projectgroup8-cs615/">CS615 - Project Group - 8</a>
 
 ## To learn more about the project click on the documentation link below:
 ## <a href="https://lahasyakr.github.io/projectgroup8-cs615/">Project Documentation Web Page</a>
