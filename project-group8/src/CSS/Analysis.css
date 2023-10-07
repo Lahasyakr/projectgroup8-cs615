@@ -1,18 +1,57 @@
 .downloadButton {
-    color: orange !important;
-    background-color: #595959 !important;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: capitalize !important;
-   
-  }
-  
-  .smalltext {
-    font-size: small !important;
-  }
-  
-  .downloadlink {
-    color: orange !important;
-    margin-left: 1% !important;
-    margin-bottom: 0.5% !important;
-  }
+  color: orange !important;
+  background-color: #595959 !important;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: capitalize !important;
+
+}
+
+.smalltext {
+  font-size: small !important;
+}
+
+.downloadlink {
+  color: orange !important;
+  margin-left: 1% !important;
+  margin-bottom: 0.5% !important;
+}
+
+.personaCarousel {
+  padding: 2% 15% 2% 15%
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 10px solid orange !important;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 10px solid orange !important;
+}
+.planMargin{
+  margin-left: 2%;
+  margin-bottom: 0% !important;
+  margin-left: -1rem !important;
+}
+.goalMargin{
+  margin-top: 2%;
+  margin-left: -5rem !important;
+  margin-bottom: 1%;
+}
+.mainAnalysis{
+  margin-bottom: 2%;
+}
+ol{
+  margin-left: 5%;
+}
+/* Numbered lists like 1, 1.1, 2.2.1... */
+ol li {display:block;} /* hide original list counter */
+ol > li:first-child {counter-reset: start;} /* reset counter */
+ol > li {counter-increment: start; position: relative;} /* increment counter */
+ol > li:before {
+  content:counters(start, ".") ". "; 
+  position: absolute; 
+  margin-right: 100%; 
+  right: 15px; 
+} /* print counter */
+

@@ -4,7 +4,7 @@ import About from './Components/About';
 import Header from './Components/Header';
 import Team from './Components/Team';
 import ProjectProposal from './Components/ProjectProposal';
-import Analysis from './Components/Analysis';
+import Analysis from './Components/Analysis/Analysis';
 import './CSS/App.css'
 class App extends Component {
   render() {
