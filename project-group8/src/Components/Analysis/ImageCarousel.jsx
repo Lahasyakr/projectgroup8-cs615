@@ -13,19 +13,19 @@ function ImageCarousel() {
   return (
     <Carousel infiniteLoop={true} showArrows={true} useKeyboardArrows={true}>
       <div>
-        <img src={Slide1} />
+        <img src={Slide1} alt='Persona1'/>
       </div>
       <div>
-        <img src={Slide2} />
+        <img src={Slide2} alt='Persona2'/>
       </div>
       <div>
-        <img src={Slide3} />
+        <img src={Slide3} alt='Persona3'/>
       </div>
       <div>
-        <img src={Slide4} />
+        <img src={Slide4} alt='Persona4'/>
       </div>
       <div>
-        <img src={Slide5} />
+        <img src={Slide5} alt='Persona5'/>
       </div>
     </Carousel>
   );
