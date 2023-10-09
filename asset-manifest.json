@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/projectgroup8-cs615/static/css/main.b032fdc2.css",
-    "main.js": "/projectgroup8-cs615/static/js/main.0f25d0aa.js",
+    "main.js": "/projectgroup8-cs615/static/js/main.02197e7e.js",
     "static/js/787.c04dea13.chunk.js": "/projectgroup8-cs615/static/js/787.c04dea13.chunk.js",
     "static/media/background.png": "/projectgroup8-cs615/static/media/background.0335111cbc9f360a957d.png",
-    "static/media/ER-dia.png": "/projectgroup8-cs615/static/media/ER-dia.ad92afff34df52dae9bb.png",
     "static/media/Slide5.PNG": "/projectgroup8-cs615/static/media/Slide5.e0a8779e685c658a42a1.PNG",
     "static/media/Slide1.PNG": "/projectgroup8-cs615/static/media/Slide1.d981f80725d988179b87.PNG",
     "static/media/Slide4.PNG": "/projectgroup8-cs615/static/media/Slide4.1ebf28617bb3e06e5be0.PNG",
     "static/media/Slide2.PNG": "/projectgroup8-cs615/static/media/Slide2.a1e6fccceb235bd76805.PNG",
     "static/media/Slide3.PNG": "/projectgroup8-cs615/static/media/Slide3.66556a4ce19132460e83.PNG",
+    "static/media/ER-dia.png": "/projectgroup8-cs615/static/media/ER-dia.a1aed549688e552face1.png",
     "static/media/team.png": "/projectgroup8-cs615/static/media/team.5af4caec59ff5583f4ba.png",
     "static/media/Analysis.png": "/projectgroup8-cs615/static/media/Analysis.d2a553756036a7b6f559.png",
     "static/media/projectproposal.png": "/projectgroup8-cs615/static/media/projectproposal.9f20352a135dc19cd1dc.png",
     "index.html": "/projectgroup8-cs615/index.html",
     "main.b032fdc2.css.map": "/projectgroup8-cs615/static/css/main.b032fdc2.css.map",
-    "main.0f25d0aa.js.map": "/projectgroup8-cs615/static/js/main.0f25d0aa.js.map",
+    "main.02197e7e.js.map": "/projectgroup8-cs615/static/js/main.02197e7e.js.map",
     "787.c04dea13.chunk.js.map": "/projectgroup8-cs615/static/js/787.c04dea13.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b032fdc2.css",
-    "static/js/main.0f25d0aa.js"
+    "static/js/main.02197e7e.js"
   ]
 }
