@@ -12,8 +12,8 @@ function TaskAnalysis() {
                     <ul>
                         <li>Login/logout that includes the necessary validation. </li>
                         <li>Feedback and reviews system. </li>
-                        <li>TCreate an admin page to manage inventory.</li>
-                        <li>ASearch and browse the board games. </li>
+                        <li>Create an admin page to manage inventory.</li>
+                        <li>Search and browse the board games. </li>
                         <li>Booking and reservation system. </li>
                         <li>Manage user accounts and profiles.</li>
                     </ul>
@@ -22,188 +22,194 @@ function TaskAnalysis() {
                     High level tasks:
 
                     <ol>
-                        <div className='goalMargin'> <p><b>Goal:</b> Create a user–friendly admin page to efficiently manage website inventory.</p></div>
-                        <li>Create an admin page to manage inventory.
+                        <div className='goalMargin'> <p><b>Goal (Admin user):</b> <ul>
+                            <li>Manage the inventory by adding new board games, updating the necessary information about the existing board games, and discarding the outdated or surplus board games from the inventory.  </li>
+                            <li>Once the customer returns the game, update the order as ‘returned’. </li>
+                        </ul></p></div>
+                        <li>Inventory management.
                             <ol>
-                                <li>Create a feature to add new board games.
+                                <li>Add new board games.
                                     <ol>
-                                        <li>Create input to add game details.
+                                        <li>Add game details.
                                             <ol>
-                                                <li>Create game title input field</li>
-                                                <li>Create game description input field. </li>
-                                                <li>Create game rules input section. </li>
+                                                <li>Enter the title</li>
+                                                <li>Enter the description. </li>
+                                                <li>Enter the game rules. </li>
                                             </ol>
 
                                         </li>
-                                        <li>Create categories input section. </li>
-                                        <li>Create an option to add images. </li>
-                                        <li>Create input for price. </li>
-                                        <li>Create availability selection.</li>
+                                        <li>Enter the game categories. </li>
+                                        <li>Add images of the game. </li>
+                                        <li>Enter the rental price for the game. </li>
+                                        <li>Enter the quantity of the game. </li>
+                                        <li>Click on the save button. </li>
                                     </ol>
                                 </li>
-                                <li>Create Update feature.
+                                <li>Update Game details.
                                     <ol>
-                                        <li>Create an option to edit game images.</li>
-                                        <li>Create an option to update the game price.</li>
-                                        <li> Create an option to update availability status.</li>
+                                        <li>Edit game images and upload new images. </li>
+                                        <li>Enter the new game price. </li>
+                                        <li>Update availability status. </li>
+                                        <li>Click on the save button. </li>
                                     </ol>
                                 </li>
-                                <li>Create a feature to remove the board game.</li>
+                                <li>Remove the board game.
+                                    <ol>
+                                        <li>Click on the delete button next to the game. </li>
+                                        <li>Confirm the deletion. </li>
+                                    </ol>
+                                </li>
+                                <li>Manage order.
+                                    <ol>
+                                        <li>Click on the ‘manage orders’ button. </li>
+                                        <li>Review the order details. </li>
+                                        <li>Click on ‘returned’ button. </li>
+                                    </ol>
+                                </li>
                             </ol>
                         </li>
 
                         <div className='planMargin'>
-                            <p><b>Plan 1:</b> Do 1.1, 1.2, 1.3 in any order.</p>
-                            <p><b>Plan 1.1:</b> Do 1.1.1, … ,1.1.5 in any order.</p>
-                            <p><b>Plan 1.1.1:</b> Do 1.1.1.1, 1.1.1.2, 1.1.1.3 in any order.</p>
-                            <p> <b>Plan 1.2:</b> Do 1.2.1, 1.2.2, 1.2.3 in any order.</p>
+                            <p><b>Plan 1: </b> Do 1.1, when there is a need to add a new game. Do 1.2, when existing game details need to be updated. <br />
+                                <ul style={{ marginLeft: "1%" }}><li> Do 1.3 when a game is outdated or is not necessary. Do 1.4 when a game has been returned to the inventory. </li></ul></p>
+                            <p><b>Plan 1.1:</b> Do 1.1.1, … ,1.1.5 in any order. Do 1.1.6 after completing 1.1.1 to 1.1.5. </p>
+                            <p><b>Plan 1.1.1:</b> Do 1.1.1.1, 1.1.1.2, 1.1.1.3 in any order. </p>
+                            <p> <b>Plan 1.2:</b> Do 1.2.1 when images need an update.
+                                <ul style={{ marginLeft: "1.8%" }}>
+                                    <li>Do 1.2.2 when the game price needs to be updated.</li>
+                                    <li>Do 1.2.3 when the availability status of the game needs to be updated. </li>
+                                    <li>Do 1.2.4 after performing any of 1.2.1 to 1.2.3.</li>
+                                </ul> </p>
+                            <p><b>Plan 1.3:</b> Do 1.3.1, 1.3.2 in the same order.  </p>
+                            <p><b>Plan 1.4:</b> Do 1.4.1 through 1.4.3 in the same order.  </p>
                         </div>
-                        <div className='goalMargin'><b>Goal:</b>Develop an intuitive search and browsing feature that allows users to effortlessly explore and find board games, along with filtering and sorting options. </div>
+                        <div className='goalMargin'><b>Goal (Customer):</b>Explore and discover board games. Utilize filtering and sorting options to find the perfect game based on preferences. </div>
 
                         <li value={2}>Search and browse the board games.
                             <ol>
-                                <li>Implement the search feature.
+                                <li>Search the board games. .
                                     <ol>
-                                        <li>Write a search algorithm. </li>
-                                        <li>Design the search bar. </li>
-                                        <li>mplement button to trigger search.  </li>
-                                        <li>Link the search button to the search algorithm. </li>
+                                        <li>Enter the keyword in the search bar.</li>
+                                        <li>Click on the search button. </li>
                                     </ol>
                                 </li>
-                                <li>Implement the filters.
+                                <li>Select the filters.
                                     <ol>
-                                        <li>Define filter categories. </li>
-                                        <li>Write an algorithm for filtering. </li>
-                                        <li>Design filter menu.</li>
+                                        <li>Click on the filter icon. </li>
+                                        <li>Choose the filter options. </li>
+                                        <li>Click on “apply filters” button. </li>
                                     </ol>
                                 </li>
-                                <li>Implement sorting features.
+                                <li>Select the sorting option.
                                     <ol>
-                                        <li> List sorting options. </li>
-                                        <li>Update search results based on sorting. </li>
+                                        <li>Click on the ‘sort’ icon. </li>
+                                        <li>Choose the ‘sort’ optiong. </li>
                                     </ol>
                                 </li>
-                                <li>Display the results in grid view.
+                                <li>View required game details.
                                     <ol>
-                                        <li>Fetch image and game title. </li>
-                                        <li>Display information on a card. </li>
-                                        <li>Link card with game details page. </li>
+                                        <li>Scroll through the list of games. </li>
+                                        <li>Click on the game required.  </li>
                                     </ol>
 
                                 </li>
                             </ol>
                         </li>
                         <div className='planMargin'>
-                            <p><b>Plan 2:</b> Do 2.1 – 2.2 - 2.3 – 2.4, in that order. </p>
+                            <p><b>Plan 2:</b> Do 2.1 first. Do 2.2 when preferences are to be applied.
+                                <ul style={{ marginLeft: "1%" }}><li>Do 2.3 when sorting based on priorities is required.</li>
+                                    <li> Do 2.4 at the end. </li></ul></p>
 
-                            <p><b>Plan 2.1:</b> Do 2.1.1 through 2.1.4, in that order. </p>
+                            <p><b>Plan 2.1:</b>Do 2.1.1 - 2.1.2, in that order </p>
 
-                            <p><b>Plan 2.2:</b> Do 2.2.1 - 2.2.2 – 2.2.3, in that order. </p>
+                            <p><b>Plan 2.2:</b> Do 2.2.1 - 2.2.2 – 2.2.3, in that order.</p>
 
                             <p><b>Plan 2.3:</b> Do 2.3.1 – 2.3.2 in that order. </p>
 
-                            <p><b>Plan 2.4:</b> Do 2.4.1 – 2.4.2 – 2.4.3, in that order. </p>
+                            <p><b>Plan 2.4:</b> Do 2.4.1 – 2.4.2 in that order. </p>
                         </div>
-                        <div className='goalMargin'><b>Goal:</b>Design a booking and reservation system, ensuring efficient management of game availability, rentals, and reservations. </div>
-                        <li>Booking and reservation system.
-                            <ol>
-                                <li>Implement the availability feature.
-                                    <ol>
-                                        <li>Create a calendar view to show the availability. </li>
-                                        <li>Write algorithm to show the availability. </li>
-                                        <li>Color code the available and unavailable dates. </li>
-                                        <li>Create a select dates feature.
-                                            <ol>
-                                                <li>Create start date input field. </li>
-                                                <li>Create end date input field. </li>
-                                                <li>Add functionality to block the unavailable dates. </li>
-                                            </ol>
-                                        </li>
-                                    </ol>
+                        <div className='goalMargin'><b>Goal (Customer):</b> Book and reserve board games of choice selecting the date range, quantity, and completing the secure checkout process with the preferred payment method.</div>
+                        <ol>
+                            <li>Booking and reservation of board game.
+                                <ol>
+                                    <li>Choose from the availability calendar.
+                                        <ol>
+                                            <li>Click on the calendar icon. </li>
+                                            <li>Choose the date range. </li>
+                                            <li>Click on the save button.</li>
+                                        </ol>
+                                    </li>
+                                    <li>Choose the quantity required.
+                                        <ol>
+                                            <li>Click on the quantity dropdown. </li>
+                                            <li>Select the required number for quantity. </li>
+                                        </ol>
+                                    </li>
+                                    <li>Click on add to the cart button. </li>
+                                    <li>Click on Go to cart button. </li>
+                                    <li>Checkout.
+                                        <ol>
+                                            <li>Click on the Buy Now button. </li>
+                                            <li>Select the payment method (Credit/Debit). </li>
+                                            <li>Enter Card Details. </li>
+                                            <li> Enter the Card Number. </li>
+                                            <li> Enter the name on the card. </li>
+                                            <li> Enter the expiry date on the card. </li>
+                                            <li> Enter the CVV. </li>
+                                            <li> Enter zip code. </li>
+                                            <li> Click on ‘Make payment’ button. </li>
+                                        </ol>
+                                    </li>
+                                </ol>
 
-                                </li>
-                                <li>Implement the cart feature.
-                                    <ol>
-                                        <li>Create a button “add to cart.” </li>
-                                        <li>Write algorithm to add the item to the cart. </li>
-                                        <li>Create a button “remove” to remove from cart. </li>
-                                        <li>Write an algorithm to remove the appropriate item from cart. </li>
-                                    </ol>
-                                </li>
-                                <li>Create payment gateway.
-                                    <ol>
-                                        <li>Create a form.
-                                            <ol>
-                                                <li>Create ‘name on card’ input field. </li>
-                                                <li>Create ‘card number’ input field. </li>
-                                                <li>Create ‘expiry date’ input field. </li>
-                                                <li>Create ‘cvv’ input field. </li>
-                                                <li>Create ‘pin code’ input field. </li>
-                                            </ol>
-                                        </li>
-                                        <li>Create a button to submit. </li>
-                                        <li>Create a display for payment status. </li>
-                                    </ol>
-                                </li>
-                                <li>Create a function that adds the reservation to active rentals. </li>
-                            </ol>
+                            </li>
+                        </ol>
 
-                        </li>
                         <div className='planMargin'>
-                            <p><b>Plan 3:</b> Do 3.1, 3.2, 3.3, 3.4, in any order. </p>
-                            <p><b>Plan 3.1:</b> Do 3.1.1 through 3.1.4, in that order. </p>
-                            <p><b>Plan 3.1.4:</b> Do 3.1.4.1 through 3.1.4.3, in that order. </p>
-                            <p><b>Plan 3.2:</b> Do 3.2.1 through 3.2.4, in that order. </p>
-                            <p><b>Plan 3.3:</b> Do 3.3.1 through 3.3.3, in that order. </p>
-                            <p><b>Plan 3.3.1:</b> Do 3.3.1.1 through 3.3.1.5, in that order.  </p>
+                            <p><b>Plan 3:</b> Do 3.1, 3.2 in the same order.
+                                <ul style={{ marginLeft: "1%" }}><li>Do 3.3 and 3.4 in that order when adding to cart is required. </li></ul> </p>
+                            <p><b>Plan 3.1:</b> Do 3.1.1 through 3.1.3, in that order.  </p>
+                            <p><b>Plan 3.2:</b> Do 3.2.1, 3.2.2, in that order.  </p>
+                            <p><b>Plan 3.5:</b>Do 3.5.1 through 3.5.3 in that order.  </p>
+                            <p><b>Plan 3.5.3:</b> Do 3.5.3.1 through 3.5.3.6 in that order.  </p>
                         </div>
-                        <div className='goalMargin'><b>Goal:</b>Design an effective review system to encourage user engagement to gather valuable insights, enhancing the customer experience and building trust among our users. </div>
-                        <li>Feedback and reviews system.
+                        <div className='goalMargin'><b>Goal(Customer): </b>Share valuable feedback and reviews for the games. Rate the game, write thoughts briefly, and include supporting images.</div>
+                        <li>Give feedback/reviews.
                             <ol>
-                                <li>Create a review form.
-                                    <ol>
-                                        <li>Create a rating feature.</li>
-                                        <li>Create ‘description section’ input field. </li>
-                                        <li>Provide option to add images. </li>
-                                        <li>Create the submit button. </li>
-                                    </ol>
-                                </li>
-                                <li>Create a display for reviews.
-                                    <ol>
-                                        <li>Calculate and display average rating. </li>
-                                        <li>Create a display for individual reviews. </li>
-                                    </ol>
-                                </li>
+                                <li>Select ‘add review’ button on the game details page.  </li>
+                                <li>Select the rating (1-5) from the options.  </li>
+                                <li>Enter description for the review.  </li>
+                                <li>Add images supporting the review.  </li>
+                                <li>Click on ‘submit review’ button. </li>
                             </ol>
                         </li>
                         <div className='planMargin'>
-                            <p><b>Plan 4:</b> Do 4.1 – 4.2, in that order. </p>
-                            <p><b>Plan 4.1:</b> Do 4.1.1, 4.1.2, 4.1.3 in any order. Then do 4.1.4 </p>
-                            <p><b>Plan 4.2:</b> Do 4.2.1, 4.2.2 in any order. </p>
+                            <p><b>Plan 4:</b>  Do 4.1 – 4.5, in that order </p>
                         </div>
 
-                        <div className='goalMargin'><b>Goal:</b>Create a user profile page where individuals can store their personal information and easily track both their past rental history and current active rentals. </div>
-                        <li>Manage user accounts and profiles.
+                        <div className='goalMargin'><b>Goal:</b>Create a user profile page where individuals can store their personal information and easily track both their past rental history and current active rentals.  </div>
+                        <li>Manage user profile.
                             <ol>
-                                <li>Create a personal details section.
+                                <li>Update personal details.
                                     <ol>
-                                        <li>Create ‘add username’ input field. </li>
-                                        <li>Create ‘add user email address’ field. </li>
-                                        <li>Create ‘add the user picture’ input field.</li>
+                                        <li>Click on the ‘edit profile’ button. </li>
+                                        <li>Add username. </li>
+                                        <li>Add email address.</li>
+                                        <li>Add profile picture.</li>
                                     </ol>
                                 </li>
-                                <li>Orders
+                                <li>Check Orders
                                     <ol>
-                                        <li>Create active rental sections.
+                                        <li>Check the active rental sections.
                                             <ol>
-                                                <li>List the current rental item. </li>
-                                                <li>List the due dates. </li>
+                                                <li>Click on the active rentals button. </li>
+                                                <li>Scroll through the active rentals.  </li>
                                             </ol>
                                         </li>
-                                        <li>Create a history section.
+                                        <li>Check the rental history section.
                                             <ol>
-                                                <li>Add the list of past purchases. </li>
-                                                <li>Create a function that includes the rental duration. </li>
+                                                <li>Click on the rental history button. </li>
+                                                <li>Scroll through the rental history.  </li>
                                             </ol>
                                         </li>
                                     </ol>
@@ -211,15 +217,18 @@ function TaskAnalysis() {
                             </ol>
                         </li>
                         <div className='planMargin'>
-                            <p><b>Plan 5:</b> Do 5.1, 5.2 in any order.  </p>
-                            <p><b>Plan 5.1:</b> Do 5.1.1, 5.1.2, 5.1.3 in any order.  </p>
-                            <p><b>Plan 5.2:</b> Do 5.2.1, 5.2.2 in any order.  </p>
-                            <p><b>Plan 5.2.1:</b> Do 5.2.1.1 – 5.2.1.2 in that order.  </p>
+                            <p><b>Plan 5:</b> Do 5.1, when personal details need to be updated.
+                                <ul style={{ marginLeft: "1%" }}><li>Do 5.2, when order details are to be viewed.</li></ul>  </p>
+
+                            <p><b>Plan 5.1:</b>  Do 5.1.1 - 5.1.4 in that order.   </p>
+                            <p><b>Plan 5.2:</b> Do 5.2.1 when active rentals are to be viewed.
+                                <ul style={{ marginLeft: "1.8%" }}><li> Do 5.2.2, when rental history is to be viewed. </li></ul>   </p>
+                            <p><b>Plan 5.2.1:</b>  Do 5.2.1.1 – 5.2.1.2 in that order.  </p>
                             <p><b>Plan 5.2.2:</b> Do 5.2.2.1 – 5.2.2.2 in that order. </p>
                         </div>
                     </ol>
                 </p>
-            </Typography>
+            </Typography >
         </>
     )
 }
