@@ -8,6 +8,7 @@ import { orange } from '@mui/material/colors';
 import ERDia from '../../images/ER-dia.png';
 import ImageCarousel from './ImageCarousel';
 import TaskAnalysis from './TaskAnalysis';
+import InterviewSynopsis from './InterviewSynopsis';
 
 function Analysis() {
 
@@ -33,18 +34,23 @@ function Analysis() {
             <Grid p={7}>
                 <div className='mainAnalysis'>
                     <Typography variant="h6" color="textPrimary" align="left"><u><b>User Analysis:</b></u>  </Typography>
+                    <div className='interviewReport'>
+                        <InterviewSynopsis />
+                    </div>
                     <Typography variant='body2' color="textPrimary" align="left">
-                        Personas for the potential users
+                        Personas for the potential users:
                     </Typography>
+                    
+
                     <div className='personaCarousel'>
                         <ImageCarousel />
                     </div>
                 </div>
                 
-                <div className='mainAnalysis'>
-                <TaskAnalysis />
-                </div>
 
+                <div className='mainAnalysis'>
+                    <TaskAnalysis />
+                </div>
 
                 <div className='mainAnalysis'>
                     <Typography variant="h6" color="textPrimary" align="left"> <b><u>Domain Analysis:</u></b></Typography>
