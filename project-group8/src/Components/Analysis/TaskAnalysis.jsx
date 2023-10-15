@@ -15,7 +15,7 @@ function TaskAnalysis() {
                         <li>Create an admin page to manage inventory.</li>
                         <li>Search and browse the board games. </li>
                         <li>Booking and reservation system. </li>
-                        <li>Manage user accounts and profiles.</li>
+                        <li>Manage user accounts and profiles. </li>
                     </ul>
 
                     <br></br>
@@ -64,6 +64,7 @@ function TaskAnalysis() {
                                         <li>Click on the ‘manage orders’ button. </li>
                                         <li>Review the order details. </li>
                                         <li>Click on ‘returned’ button. </li>
+                                        <li>Click on ‘delivered’ button. </li>
                                     </ol>
                                 </li>
                             </ol>
@@ -75,13 +76,15 @@ function TaskAnalysis() {
                             <p><b>Plan 1.1:</b> Do 1.1.1, … ,1.1.5 in any order. Do 1.1.6 after completing 1.1.1 to 1.1.5. </p>
                             <p><b>Plan 1.1.1:</b> Do 1.1.1.1, 1.1.1.2, 1.1.1.3 in any order. </p>
                             <p> <b>Plan 1.2:</b> Do 1.2.1 when images need an update.
-                                <ul style={{ marginLeft: "1.8%" }}>
+                                <ul style={{ marginLeft: "2.1%" }}>
                                     <li>Do 1.2.2 when the game price needs to be updated.</li>
                                     <li>Do 1.2.3 when the availability status of the game needs to be updated. </li>
                                     <li>Do 1.2.4 after performing any of 1.2.1 to 1.2.3.</li>
                                 </ul> </p>
                             <p><b>Plan 1.3:</b> Do 1.3.1, 1.3.2 in the same order.  </p>
-                            <p><b>Plan 1.4:</b> Do 1.4.1 through 1.4.3 in the same order.  </p>
+                            <p><b>Plan 1.4:</b> Do 1.4.1, 1.4.2 in the same order. 
+                            <ul style={{ marginLeft: "2.1%" }}><li>Do 1.4.3, when the customer returns the order.</li>
+                                    <li> Do 1.4.4 when customer picks up the order.</li></ul></p>
                         </div>
                         <div className='goalMargin'><b>Goal (Customer):</b>Explore and discover board games. Utilize filtering and sorting options to find the perfect game based on preferences. </div>
 
@@ -129,29 +132,30 @@ function TaskAnalysis() {
                             <p><b>Plan 2.4:</b> Do 2.4.1 – 2.4.2 in that order. </p>
                         </div>
                         <div className='goalMargin'><b>Goal (Customer):</b> Book and reserve board games of choice selecting the date range, quantity, and completing the secure checkout process with the preferred payment method.</div>
-                        <ol>
-                            <li>Booking and reservation of board game.
-                                <ol>
-                                    <li>Choose from the availability calendar.
+
+                        <li>Booking and reservation of board game.
+                            <ol>
+                                <li>Choose from the availability calendar.
+                                    <ol>
+                                        <li>Click on the calendar icon. </li>
+                                        <li>Choose the date range. </li>
+                                        <li>Click on the save button.</li>
+                                    </ol>
+                                </li>
+                                <li>Choose the quantity required.
+                                    <ol>
+                                        <li>Click on the quantity dropdown. </li>
+                                        <li>Select the required number for quantity. </li>
+                                    </ol>
+                                </li>
+                                <li>Click on ‘Add to cart’ button. </li>
+                                <li>Click on ‘Go to cart’ button. </li>
+                                <li>Checkout.
+                                    <ol>
+                                        <li>Click on the Buy Now button. </li>
+                                        <li>Select the payment method (Credit/Debit). </li>
+                                        <li>Enter Card Details. </li>
                                         <ol>
-                                            <li>Click on the calendar icon. </li>
-                                            <li>Choose the date range. </li>
-                                            <li>Click on the save button.</li>
-                                        </ol>
-                                    </li>
-                                    <li>Choose the quantity required.
-                                        <ol>
-                                            <li>Click on the quantity dropdown. </li>
-                                            <li>Select the required number for quantity. </li>
-                                        </ol>
-                                    </li>
-                                    <li>Click on add to the cart button. </li>
-                                    <li>Click on Go to cart button. </li>
-                                    <li>Checkout.
-                                        <ol>
-                                            <li>Click on the Buy Now button. </li>
-                                            <li>Select the payment method (Credit/Debit). </li>
-                                            <li>Enter Card Details. </li>
                                             <li> Enter the Card Number. </li>
                                             <li> Enter the name on the card. </li>
                                             <li> Enter the expiry date on the card. </li>
@@ -159,11 +163,11 @@ function TaskAnalysis() {
                                             <li> Enter zip code. </li>
                                             <li> Click on ‘Make payment’ button. </li>
                                         </ol>
-                                    </li>
-                                </ol>
+                                    </ol>
+                                </li>
+                            </ol>
 
-                            </li>
-                        </ol>
+                        </li>
 
                         <div className='planMargin'>
                             <p><b>Plan 3:</b> Do 3.1, 3.2 in the same order.
@@ -173,7 +177,9 @@ function TaskAnalysis() {
                             <p><b>Plan 3.5:</b>Do 3.5.1 through 3.5.3 in that order.  </p>
                             <p><b>Plan 3.5.3:</b> Do 3.5.3.1 through 3.5.3.6 in that order.  </p>
                         </div>
+
                         <div className='goalMargin'><b>Goal(Customer): </b>Share valuable feedback and reviews for the games. Rate the game, write thoughts briefly, and include supporting images.</div>
+                        
                         <li>Give feedback/reviews.
                             <ol>
                                 <li>Select ‘add review’ button on the game details page.  </li>
@@ -183,11 +189,15 @@ function TaskAnalysis() {
                                 <li>Click on ‘submit review’ button. </li>
                             </ol>
                         </li>
+
                         <div className='planMargin'>
                             <p><b>Plan 4:</b>  Do 4.1 – 4.5, in that order </p>
                         </div>
 
+
+
                         <div className='goalMargin'><b>Goal:</b>Create a user profile page where individuals can store their personal information and easily track both their past rental history and current active rentals.  </div>
+                        
                         <li>Manage user profile.
                             <ol>
                                 <li>Update personal details.
@@ -216,13 +226,14 @@ function TaskAnalysis() {
                                 </li>
                             </ol>
                         </li>
+
                         <div className='planMargin'>
                             <p><b>Plan 5:</b> Do 5.1, when personal details need to be updated.
                                 <ul style={{ marginLeft: "1%" }}><li>Do 5.2, when order details are to be viewed.</li></ul>  </p>
 
                             <p><b>Plan 5.1:</b>  Do 5.1.1 - 5.1.4 in that order.   </p>
                             <p><b>Plan 5.2:</b> Do 5.2.1 when active rentals are to be viewed.
-                                <ul style={{ marginLeft: "1.8%" }}><li> Do 5.2.2, when rental history is to be viewed. </li></ul>   </p>
+                                <ul style={{ marginLeft: "2.1%" }}><li> Do 5.2.2, when rental history is to be viewed. </li></ul>   </p>
                             <p><b>Plan 5.2.1:</b>  Do 5.2.1.1 – 5.2.1.2 in that order.  </p>
                             <p><b>Plan 5.2.2:</b> Do 5.2.2.1 – 5.2.2.2 in that order. </p>
                         </div>
