@@ -1,0 +1,8 @@
+.tabs{
+    text-transform: none !important;
+    font-weight: bold !important;
+    font-size: large !important;
+}
+.tabContenet{
+    margin-top: 2rem;
+}
