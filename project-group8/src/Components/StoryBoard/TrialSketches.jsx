@@ -17,11 +17,8 @@ function TrialSketches() {
             >
 
                 <img src={trialsketch1} alt="Trial Sketch" height={"100%"} width={"70%"}/>
-
-
                 <img src={trialsketch2} alt="Trial Sketch" height={"100%"} width={"70%"}/>
-
-
+                
             </Grid>
         </>
     )
