@@ -14,9 +14,11 @@ import design1 from '../../images/storyboard/Lahasya/design1.png';
 import design2 from '../../images/storyboard/Lahasya/design2.png';
 import design3 from '../../images/storyboard/Lahasya/design3.png';
 import design4 from '../../images/storyboard/Lahasya/design4.png';
-import yesh1 from '../../images/storyboard/UID-Sketches-1.jpg';
-import yesh2 from '../../images/storyboard/UID-Sketches-2.jpg';
-import yesh3 from '../../images/storyboard/UID-Sketches-3.jpg';
+import yesh1 from '../../images/storyboard/Yeshaswini/UID-Sketches-1.png';
+import yesh2 from '../../images/storyboard/Yeshaswini/UID-Sketches-2.png';
+import yesh3 from '../../images/storyboard/Yeshaswini/UID-Sketches-3.png';
+import yesh4 from '../../images/storyboard/Yeshaswini/UID-Sketches-4.png';
+import yesh5 from '../../images/storyboard/Yeshaswini/UID-Sketches-5.png';
 
 function Storyboard() {
 
