@@ -1,8 +1,6 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import { Typography } from '@mui/material'
-import design1 from '../../images/storyboard/design1.png';
-import design2 from '../../images/storyboard/design2.png';
 import Slide1 from '../../images/storyboard/Prateeksha/Slide1.PNG';
 import Slide2 from '../../images/storyboard/Prateeksha/Slide2.PNG';
 import Slide3 from '../../images/storyboard/Prateeksha/Slide3.PNG';
@@ -12,13 +10,13 @@ import Slide6 from '../../images/storyboard/Prateeksha/Slide6.PNG';
 import Slide7 from '../../images/storyboard/Prateeksha/Slide7.PNG';
 import Slide8 from '../../images/storyboard/Prateeksha/Slide8.PNG';
 import Slide9 from '../../images/storyboard/Prateeksha/Slide9.PNG';
-import trialsketch1 from '../../images/storyboard/trialsketch1.png';
-import trialsketch2 from '../../images/storyboard/trialsketch2.png';
-import yesh1 from '../../images/storyboard/UID-Sketches-1.png';
-import yesh2 from '../../images/storyboard/UID-Sketches-2.png';
-import yesh3 from '../../images/storyboard/UID-Sketches-3.png';
-import yesh4 from '../../images/storyboard/UID-Sketches-4.png';
-import yesh5 from '../../images/storyboard/UID-Sketches-5.png';
+import design1 from '../../images/storyboard/Lahasya/design1.png';
+import design2 from '../../images/storyboard/Lahasya/design2.png';
+import design3 from '../../images/storyboard/Lahasya/design3.png';
+import design4 from '../../images/storyboard/Lahasya/design4.png';
+import yesh1 from '../../images/storyboard/UID-Sketches-1.jpg';
+import yesh2 from '../../images/storyboard/UID-Sketches-2.jpg';
+import yesh3 from '../../images/storyboard/UID-Sketches-3.jpg';
 
 function Storyboard() {
 
@@ -67,9 +65,13 @@ function Storyboard() {
 
                 <Typography> Storyboards by Lahasya</Typography>
                 <br></br>
-                <img src={trialsketch1} alt='story board' height={"100%"} width={"70%"}/>
+                <img src={design1} alt='story board' height={"100%"} width={"70%"}/>
                 <br></br>
-                <img src={trialsketch2} alt='story board' height={"100%"} width={"70%"}/>
+                <img src={design2} alt='story board' height={"100%"} width={"70%"}/>
+                <br></br>
+                <img src={design3} alt='story board' height={"100%"} width={"70%"}/>
+                <br></br>
+                <img src={design4} alt='story board' height={"100%"} width={"70%"}/>
                 <br></br>
 
         
