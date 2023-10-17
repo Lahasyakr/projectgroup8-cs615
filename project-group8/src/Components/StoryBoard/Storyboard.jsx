@@ -12,8 +12,11 @@ import Slide6 from '../../images/storyboard/Prateeksha/Slide6.PNG';
 import Slide7 from '../../images/storyboard/Prateeksha/Slide7.PNG';
 import Slide8 from '../../images/storyboard/Prateeksha/Slide8.PNG';
 import Slide9 from '../../images/storyboard/Prateeksha/Slide9.PNG';
-
-
+import trialsketch1 from '../../images/storyboard/trialsketch1.png';
+import trialsketch2 from '../../images/storyboard/trialsketch2.png';
+import yesh1 from '../../images/storyboard/UID-Sketches-1.jpg';
+import yesh2 from '../../images/storyboard/UID-Sketches-2.jpg';
+import yesh3 from '../../images/storyboard/UID-Sketches-3.jpg';
 
 function Storyboard() {
 
@@ -25,9 +28,6 @@ function Storyboard() {
                 justifyContent="center"
                 alignItems="center"
             >
-                <img src={design1} alt="story board" height={"100%"} width={"70%"} />
-                <img src={design2} alt="story board" height={"100%"} width={"70%"} />
-                <br></br>
 
                 <Typography> Storyboards by Prateeksaha</Typography>
                 <br></br>
@@ -49,6 +49,24 @@ function Storyboard() {
                 <br></br>
                 <img src={Slide9} alt='story board' height={"100%"} width={"70%"}/>
                 <br></br>
+
+                <Typography> Storyboards by Yeshaswini</Typography>
+                <br></br>
+                <img src={yesh1} alt='story board' height={"100%"} width={"70%"}/>
+                <br></br>
+                <img src={yesh2} alt='story board' height={"100%"} width={"70%"}/>
+                <br></br>
+                <img src={yesh3} alt='story board' height={"100%"} width={"70%"}/>
+                <br></br>
+
+                <Typography> Storyboards by Lahasya</Typography>
+                <br></br>
+                <img src={trialsketch1} alt='story board' height={"100%"} width={"70%"}/>
+                <br></br>
+                <img src={trialsketch2} alt='story board' height={"100%"} width={"70%"}/>
+                <br></br>
+
+        
             </Grid>
             <br></br>
 
