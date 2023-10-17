@@ -7,7 +7,7 @@ import { orange } from '@mui/material/colors';
 import '../../CSS/storyboard.css'
 import { Grid } from '@mui/material';
 import Storyboard from './Storyboard';
-import TrialSketches from './TrialSketches';
+
 import FinalSketches from './FinalSketches';
 
 function StoryboardAndSketches() {
@@ -33,12 +33,11 @@ function StoryboardAndSketches() {
                     indicatorColor="primary"
                     centered>
                     <Tab value={1} label="Storyboards" className='tabs'/>
-                    <Tab value={2} label="Trial Sketches" className='tabs' />
-                    <Tab value={3} label="Final Sketches" className='tabs' />
+                    <Tab value={2} label="Final Sketches" className='tabs' />
                 </Tabs>
             </Box>
             <div className='tabContenet'>
-                {value === 1 ? <Storyboard /> : value === 2 ? <TrialSketches /> : <FinalSketches />}
+                {value === 1 ? <Storyboard /> : <FinalSketches />}
             </div>
         </ThemeProvider>
     );
