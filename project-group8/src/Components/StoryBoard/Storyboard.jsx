@@ -14,9 +14,11 @@ import Slide8 from '../../images/storyboard/Prateeksha/Slide8.PNG';
 import Slide9 from '../../images/storyboard/Prateeksha/Slide9.PNG';
 import trialsketch1 from '../../images/storyboard/trialsketch1.png';
 import trialsketch2 from '../../images/storyboard/trialsketch2.png';
-import yesh1 from '../../images/storyboard/UID-Sketches-1.jpg';
-import yesh2 from '../../images/storyboard/UID-Sketches-2.jpg';
-import yesh3 from '../../images/storyboard/UID-Sketches-3.jpg';
+import yesh1 from '../../images/storyboard/UID-Sketches-1.png';
+import yesh2 from '../../images/storyboard/UID-Sketches-2.png';
+import yesh3 from '../../images/storyboard/UID-Sketches-3.png';
+import yesh4 from '../../images/storyboard/UID-Sketches-4.png';
+import yesh5 from '../../images/storyboard/UID-Sketches-5.png';
 
 function Storyboard() {
 
@@ -57,6 +59,10 @@ function Storyboard() {
                 <img src={yesh2} alt='story board' height={"100%"} width={"70%"}/>
                 <br></br>
                 <img src={yesh3} alt='story board' height={"100%"} width={"70%"}/>
+                <br></br>
+                <img src={yesh4} alt='story board' height={"100%"} width={"70%"}/>
+                <br></br>
+                <img src={yesh5} alt='story board' height={"100%"} width={"70%"}/>
                 <br></br>
 
                 <Typography> Storyboards by Lahasya</Typography>
