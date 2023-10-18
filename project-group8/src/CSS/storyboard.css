@@ -1,8 +1,35 @@
-.tabs{
+.tabs {
     text-transform: none !important;
     font-weight: bold !important;
-    font-size: large !important;
+    font-size: 1.2rem !important;
 }
-.tabContenet{
+
+/* .storyboards_sketches .Mui-selected {
+    background-color: orange;
+} */
+
+.tabs:hover {
+    color: Orange;
+    opacity:1;
+    background-color: #595959;
+}
+
+.tabContenet {
     margin-top: 2rem;
+}
+
+.imageMargin {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+}
+
+.finalSketches {
+    margin-left: 2% !important;
+    margin-right: 3% !important;
+}
+
+.finalSketches ul li {
+    display: list-item !important;
+    list-style-type: disc;
 }

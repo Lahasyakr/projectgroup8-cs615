@@ -2,7 +2,6 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import { Button, Typography } from '@mui/material';
 import '../CSS/projectproposal.css';
-import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 import DownloadIcon from '@mui/icons-material/Download';
 import { orange } from '@mui/material/colors';
 
