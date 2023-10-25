@@ -1,12 +1,43 @@
+.prototype{
+    padding: 2% !important
+}
+
+.imageCarousel {
+    max-height: 100% !important;
+    max-width: 80% !important;
+    margin-left: 10%;
+    object-fit: contain;
+}
+
+.imageCarousel img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 80vh;
+    padding: 0;
+    margin: 0;
+}
+
+.taskDesc {
+    padding-left: 5rem;
+    padding-bottom: 1% !important;
+}
+
+.headingClass {
+    font-weight: 600 !important;
+    padding-top: 2% !important;
+    font-size: medium !important;
+}
+
+.control-arrow {
+    opacity: 1 !important;
+}
+
 .tabs {
     text-transform: none !important;
     font-weight: bold !important;
     font-size: 1.2rem !important;
 }
-
-/* .storyboards_sketches .Mui-selected {
-    background-color: orange;
-} */
 
 .tabs:hover {
     color: Orange;
@@ -21,21 +52,6 @@
 .imageMargin {
     margin-top: 1%;
     margin-bottom: 1%;
-    margin-left: 10%;
-}
-
-.finalSketches {
-    margin-left: 2% !important;
-    margin-right: 3% !important;
-}
-
-.finalSketches ul li {
-    display: list-item !important;
-    list-style-type: disc;
-}
-
-.control-arrow {
-    opacity: 1 !important;
 }
 
 .downloadlink {

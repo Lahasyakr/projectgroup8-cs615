@@ -7,6 +7,7 @@ import ProjectProposal from './Components/ProjectProposal';
 import Analysis from './Components/Analysis/Analysis';
 import './CSS/App.css'
 import StoryboardAndSketches from './Components/StoryBoard/StoryboardAndSketches';
+import PrototypesAndObservation from './Components/Prototypes/PrototypesAndObservation';
 class App extends Component {
   render() {
     return (
@@ -19,6 +20,7 @@ class App extends Component {
             <Route path='ourteam' Component={Team} />
             <Route path='analysis' Component={Analysis} />
             <Route path='storyboardAndSketches' Component={StoryboardAndSketches} />
+            <Route path='prototypes' Component={PrototypesAndObservation}/>
           </Routes>
         </div>
       </HashRouter>

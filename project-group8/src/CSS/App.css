@@ -12,5 +12,6 @@ body, html {
   color:orange;
   margin-top: 2rem;
   perspective: 500px;
+  font-size:calc(12px + 1.5vw) !important;
 }
 
