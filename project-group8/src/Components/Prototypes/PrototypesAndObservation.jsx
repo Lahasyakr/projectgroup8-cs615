@@ -36,7 +36,7 @@ function PrototypesAndObservation() {
             >
                 <ThemeProvider theme={theme}>
                     <Typography variant="h4" gutterBottom className='heading' align='center'>Prototypes & Observations - </Typography>
-                    <a href="documents/CS615_Project_Step_3 _Group8.pdf" target="_blank" download className='downloadlink'>
+                    <a href="documents/CS615-Project_Step-4 _Group8.pdf" target="_blank" download className='downloadlink'>
                         <Button variant='contained' size="small" className='downloadButton' endIcon={<DownloadIcon sx={{ color: orange[500] }} />}>
                             Download
                         </Button>
