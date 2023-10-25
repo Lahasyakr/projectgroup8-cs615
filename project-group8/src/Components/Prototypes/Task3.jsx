@@ -49,7 +49,7 @@ function Task3() {
     return (
         <>
             <Box sx={{ width: '98%' }}>
-                <Typography variant="body1" color="textPrimary" align="left" className='taskDesc'>Task 3: Update the order no 123 as returned. </Typography>
+                <Typography variant="body1" color="textPrimary" align="left" className='taskDesc'>Task 3: Update the order number 123 as returned. </Typography>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={12} md={6}>
                         <Typography variant="h6" color="textPrimary" align="center" className='headingClass'>Initial Prototype</Typography>
