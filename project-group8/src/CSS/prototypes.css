@@ -8,6 +8,9 @@
     margin-left: 10%;
     object-fit: contain;
 }
+.imageCarousel .carousel .carousel-status {
+    color: black !important;
+}
 
 .imageCarousel img {
     height: auto;
