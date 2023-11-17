@@ -10,7 +10,7 @@ function CardComponent(props) {
 
 
   return (
-    <Card sx={{ maxWidth: 345 }} className='carcomponent'>
+    <Card sx={{ maxWidth: "12rem", height:"18rem" }} className='carcomponent'>
       <Link to={props.redirect}>
         <CardActionArea>
           <CardMedia

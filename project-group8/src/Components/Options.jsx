@@ -7,6 +7,7 @@ import team from "../images/team.png";
 import UTDAnalysis from "../images/UTDAnalysis.png";
 import storyboardicon from '../images/storyboardicon.png'
 import PrototypeIcon from '../images/PrototypeIcon.png'
+import computerProto from '../images/computerProto.png'
 function Options() {
 
     return (
@@ -23,6 +24,7 @@ function Options() {
             <CardComponent img={UTDAnalysis} title={"Analysis"} idea={"Analyse the project components"} redirect="/analysis" />
             <CardComponent img={storyboardicon} title={"Storyboards"} idea={"Storyboards and Sketches"} redirect="/storyboardAndSketches" />
             <CardComponent img={PrototypeIcon} title={"Prototypes"} idea={"Prototypes & Observations"} redirect="/prototypes" />
+            <CardComponent img={computerProto} title={"Computer Prototype"} idea={"Computer Prototype"} redirect="/computerPrototype" />
         </Grid>
     );
 }
