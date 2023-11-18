@@ -55,7 +55,7 @@ const ComputerPrototype = () => {
                     <Grid p={7}>
                         {value === 1 ?
                             <>
-                                <Typography variant="body1" color="textPrimary" align="left"><u><b>Customer point of vew</b></u>  </Typography>
+                                <Typography variant="body1" color="textPrimary" align="left"><u><b>Customer point of view</b></u>  </Typography>
                                 <Typography variant='body2' color="textPrimary" align="left">
                                     <p>Link to Prototype: <a style={{ color: "blue", textDecoration: "underline" }} href='https://www.figma.com/proto/DT9jt8KHy5z9sS0dHrOzsA/UID---Group-8---Prototype?type=design&node-id=1-8&t=gPO3DlwDdkzMYaRK-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A8&mode=design'>
                                         Customer POV Prototype</a></p>
