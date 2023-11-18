@@ -6,7 +6,7 @@ function TaskAnalysis() {
     return (
         <>
             <Typography variant="h6" color="textPrimary" align="left"><u><b>Task Analysis</b></u>  </Typography>
-            <Typography id="orderedlists" variant='body2' color="textPrimary" align="left">
+            <Typography id="orderedlists" variant='body2' color="textPrimary" align="left" className='classAnalysis'>
                 <p>
                     Tasks for Board Game Rental Management:
                     <ul>

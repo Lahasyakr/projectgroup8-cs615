@@ -45,10 +45,10 @@ ol{
   margin-left: 5%;
 }
 /* Numbered lists like 1, 1.1, 2.2.1... */
-ol li {display:block;} /* hide original list counter */
-ol > li:first-child {counter-reset: start;} /* reset counter */
-ol > li {counter-increment: start; position: relative;} /* increment counter */
-ol > li:before {
+.classAnalysis  ol  li {display:block;} /* hide original list counter */
+.classAnalysis ol > li:first-child {counter-reset: start;} /* reset counter */
+.classAnalysis ol > li {counter-increment: start; position: relative;} /* increment counter */
+.classAnalysis ol > li:before {
   content:counters(start, ".") ". "; 
   position: absolute; 
   margin-right: 100%; 
