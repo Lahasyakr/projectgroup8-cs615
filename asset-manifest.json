@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectgroup8-cs615/static/css/main.1a597b9c.css",
-    "main.js": "/projectgroup8-cs615/static/js/main.2275f3ae.js",
+    "main.css": "/projectgroup8-cs615/static/css/main.3bf467a6.css",
+    "main.js": "/projectgroup8-cs615/static/js/main.2ac46fdb.js",
     "static/js/787.c04dea13.chunk.js": "/projectgroup8-cs615/static/js/787.c04dea13.chunk.js",
     "static/media/StoryBoard1.png": "/projectgroup8-cs615/static/media/StoryBoard1.8f8a3e54f8b5285aca04.png",
     "static/media/design1.png": "/projectgroup8-cs615/static/media/design1.8f8a3e54f8b5285aca04.png",
@@ -66,18 +66,19 @@
     "static/media/Task1-Page4.JPG": "/projectgroup8-cs615/static/media/Task1-Page4.3a573a61c61197a58424.JPG",
     "static/media/page3-task1.JPG": "/projectgroup8-cs615/static/media/page3-task1.3a573a61c61197a58424.JPG",
     "static/media/StoryBoard6.png": "/projectgroup8-cs615/static/media/StoryBoard6.995d0d2c9b842b471f7a.png",
+    "static/media/computerProto.png": "/projectgroup8-cs615/static/media/computerProto.833264f3a69e4e820782.png",
     "static/media/UTDAnalysis.png": "/projectgroup8-cs615/static/media/UTDAnalysis.c5eaa691d53d54c67b5f.png",
     "static/media/ER-dia.png": "/projectgroup8-cs615/static/media/ER-dia.a1aed549688e552face1.png",
     "static/media/team.png": "/projectgroup8-cs615/static/media/team.5af4caec59ff5583f4ba.png",
     "static/media/PrototypeIcon.png": "/projectgroup8-cs615/static/media/PrototypeIcon.09229068870ae1f8e8bb.png",
     "static/media/projectproposal.png": "/projectgroup8-cs615/static/media/projectproposal.9f20352a135dc19cd1dc.png",
     "index.html": "/projectgroup8-cs615/index.html",
-    "main.1a597b9c.css.map": "/projectgroup8-cs615/static/css/main.1a597b9c.css.map",
-    "main.2275f3ae.js.map": "/projectgroup8-cs615/static/js/main.2275f3ae.js.map",
+    "main.3bf467a6.css.map": "/projectgroup8-cs615/static/css/main.3bf467a6.css.map",
+    "main.2ac46fdb.js.map": "/projectgroup8-cs615/static/js/main.2ac46fdb.js.map",
     "787.c04dea13.chunk.js.map": "/projectgroup8-cs615/static/js/787.c04dea13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a597b9c.css",
-    "static/js/main.2275f3ae.js"
+    "static/css/main.3bf467a6.css",
+    "static/js/main.2ac46fdb.js"
   ]
 }
