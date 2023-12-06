@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectgroup8-cs615/static/css/main.d4bc8654.css",
-    "main.js": "/projectgroup8-cs615/static/js/main.1f5f7653.js",
+    "main.css": "/projectgroup8-cs615/static/css/main.69dd4220.css",
+    "main.js": "/projectgroup8-cs615/static/js/main.3f868ddc.js",
     "static/js/787.c04dea13.chunk.js": "/projectgroup8-cs615/static/js/787.c04dea13.chunk.js",
     "static/media/StoryBoard1.png": "/projectgroup8-cs615/static/media/StoryBoard1.8f8a3e54f8b5285aca04.png",
     "static/media/design1.png": "/projectgroup8-cs615/static/media/design1.8f8a3e54f8b5285aca04.png",
@@ -70,15 +70,16 @@
     "static/media/UTDAnalysis.png": "/projectgroup8-cs615/static/media/UTDAnalysis.c5eaa691d53d54c67b5f.png",
     "static/media/ER-dia.png": "/projectgroup8-cs615/static/media/ER-dia.a1aed549688e552face1.png",
     "static/media/team.png": "/projectgroup8-cs615/static/media/team.5af4caec59ff5583f4ba.png",
+    "static/media/final_implementation.jpg": "/projectgroup8-cs615/static/media/final_implementation.c67e6d327ddc551d7554.jpg",
     "static/media/PrototypeIcon.png": "/projectgroup8-cs615/static/media/PrototypeIcon.09229068870ae1f8e8bb.png",
     "static/media/projectproposal.png": "/projectgroup8-cs615/static/media/projectproposal.9f20352a135dc19cd1dc.png",
     "index.html": "/projectgroup8-cs615/index.html",
-    "main.d4bc8654.css.map": "/projectgroup8-cs615/static/css/main.d4bc8654.css.map",
-    "main.1f5f7653.js.map": "/projectgroup8-cs615/static/js/main.1f5f7653.js.map",
+    "main.69dd4220.css.map": "/projectgroup8-cs615/static/css/main.69dd4220.css.map",
+    "main.3f868ddc.js.map": "/projectgroup8-cs615/static/js/main.3f868ddc.js.map",
     "787.c04dea13.chunk.js.map": "/projectgroup8-cs615/static/js/787.c04dea13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4bc8654.css",
-    "static/js/main.1f5f7653.js"
+    "static/css/main.69dd4220.css",
+    "static/js/main.3f868ddc.js"
   ]
 }
