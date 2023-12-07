@@ -2,7 +2,9 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import { Button, Typography } from '@mui/material';
 import '../../CSS/Analysis.css';
-import { FaExternalLinkAlt } from "react-icons/fa";;
+import { FaExternalLinkAlt } from "react-icons/fa";
+import projectdemovideo from './projectdemovideo.mp4'
+
 
 export default function FinalImplementation() {
 
@@ -41,13 +43,12 @@ export default function FinalImplementation() {
                                 <FaExternalLinkAlt style={{ marginLeft: "10px" }} /></a></a></li>
 
 
-                        <li style={{ paddingTop: "2rem" }}><a target='_blank' style={{ color: "black" }} href='https://github.com/Lahasyakr/BoardForBored/blob/main/README.md'>
-                            Link to our project video :
-                            <a target='_blank' style={{ color: "blue", fontWeight: "500" }}
-                                href='https://github.com/Lahasyakr/BoardForBored/blob/main/README.md'> Watch me
-                                <FaExternalLinkAlt style={{ marginLeft: "10px" }} /></a></a>
+                        <li style={{ paddingTop: "2rem" }}>
+                            Here is our project demo video :
                         </li>
+
                     </ol>
+                    <video style={{ padding: "2rem", width: "100%" }} controls autostart autoPlay src={projectdemovideo} type="video/mp4" />
                 </div>
 
 
