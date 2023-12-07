@@ -9,6 +9,7 @@ import './CSS/App.css'
 import StoryboardAndSketches from './Components/StoryBoard/StoryboardAndSketches';
 import PrototypesAndObservation from './Components/Prototypes/PrototypesAndObservation';
 import ComputerPrototype from './Components/ComputerPrototype';
+import FinalImplementation from './Components/FinalImplementation/FinalImplemetation';
 class App extends Component {
   render() {
     return (
@@ -23,6 +24,7 @@ class App extends Component {
             <Route path='storyboardAndSketches' Component={StoryboardAndSketches} />
             <Route path='prototypes' Component={PrototypesAndObservation}/>
             <Route path='computerPrototype' Component={ComputerPrototype}/>
+            <Route path='finalImplementation' Component={FinalImplementation}/>
           </Routes>
         </div>
       </HashRouter>
