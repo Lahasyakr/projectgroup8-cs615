@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectgroup8-cs615/static/css/main.69dd4220.css",
-    "main.js": "/projectgroup8-cs615/static/js/main.a2690bb7.js",
+    "main.css": "/projectgroup8-cs615/static/css/main.5ba432b3.css",
+    "main.js": "/projectgroup8-cs615/static/js/main.b00f45dd.js",
     "static/js/787.c04dea13.chunk.js": "/projectgroup8-cs615/static/js/787.c04dea13.chunk.js",
     "static/media/StoryBoard1.png": "/projectgroup8-cs615/static/media/StoryBoard1.8f8a3e54f8b5285aca04.png",
     "static/media/design1.png": "/projectgroup8-cs615/static/media/design1.8f8a3e54f8b5285aca04.png",
@@ -74,12 +74,12 @@
     "static/media/PrototypeIcon.png": "/projectgroup8-cs615/static/media/PrototypeIcon.09229068870ae1f8e8bb.png",
     "static/media/projectproposal.png": "/projectgroup8-cs615/static/media/projectproposal.9f20352a135dc19cd1dc.png",
     "index.html": "/projectgroup8-cs615/index.html",
-    "main.69dd4220.css.map": "/projectgroup8-cs615/static/css/main.69dd4220.css.map",
-    "main.a2690bb7.js.map": "/projectgroup8-cs615/static/js/main.a2690bb7.js.map",
+    "main.5ba432b3.css.map": "/projectgroup8-cs615/static/css/main.5ba432b3.css.map",
+    "main.b00f45dd.js.map": "/projectgroup8-cs615/static/js/main.b00f45dd.js.map",
     "787.c04dea13.chunk.js.map": "/projectgroup8-cs615/static/js/787.c04dea13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69dd4220.css",
-    "static/js/main.a2690bb7.js"
+    "static/css/main.5ba432b3.css",
+    "static/js/main.b00f45dd.js"
   ]
 }
