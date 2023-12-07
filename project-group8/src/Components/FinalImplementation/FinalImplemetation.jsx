@@ -23,7 +23,13 @@ export default function FinalImplementation() {
             <Grid style={{ padding: "2rem 10rem 2rem 10rem" }}>
                 <div className='mainAnalysis'>
                     <ol >
-                        <li><a target='_blank' style={{ color: "black" }} href='https://github.com/Lahasyakr/BoardForBored'>
+                        <li><a target='_blank' style={{ color: "black" }} href='https://lahasyakr.github.io/BoardForBored/'>
+                            Link to our Application :
+                            <a target='_blank' style={{ color: "blue", fontWeight: "500" }}
+                                href='https://lahasyakr.github.io/BoardForBored/'> Click me
+                                <FaExternalLinkAlt style={{ marginLeft: "10px" }} /></a></a>
+                        </li>
+                        <li style={{ paddingTop: "2rem" }}><a target='_blank' style={{ color: "black" }} href='https://github.com/Lahasyakr/BoardForBored'>
                             Github Link for Our project implementation  :
                             <a target='_blank' style={{ color: "blue", fontWeight: "500" }}
                                 href='https://github.com/Lahasyakr/BoardForBored'> Board For Bored
@@ -34,15 +40,16 @@ export default function FinalImplementation() {
                                 href='https://github.com/Lahasyakr/BoardForBored/blob/main/README.md'> Read me
                                 <FaExternalLinkAlt style={{ marginLeft: "10px" }} /></a></a></li>
 
+
                         <li style={{ paddingTop: "2rem" }}><a target='_blank' style={{ color: "black" }} href='https://github.com/Lahasyakr/BoardForBored/blob/main/README.md'>
                             Link to our project video :
                             <a target='_blank' style={{ color: "blue", fontWeight: "500" }}
                                 href='https://github.com/Lahasyakr/BoardForBored/blob/main/README.md'> Watch me
                                 <FaExternalLinkAlt style={{ marginLeft: "10px" }} /></a></a>
-                                </li>
+                        </li>
                     </ol>
                 </div>
-             
+
 
             </Grid >
         </>
